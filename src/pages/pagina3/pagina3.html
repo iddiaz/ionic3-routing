@@ -10,4 +10,9 @@
 <ion-content padding>
   <h3 text-center>{{mutante.poder}}</h3>
 
+  <button ion-button color="primary" block (click)="irAtras()">ir atrás con evento</button>
+  <button ion-button color="secundary" block (click)="irRoot()">ir a root</button>
+
+  <button ion-button color="danger" block navPop>ir atrás sin evento</button>
+
 </ion-content>
