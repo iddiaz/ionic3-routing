@@ -34,6 +34,8 @@ export class Pagina2Page {
     }
   ];
 
+  pagina3: any = PAgina3Page;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
