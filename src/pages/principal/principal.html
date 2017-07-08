@@ -14,6 +14,8 @@
 
 
 <ion-content padding>
-  <h1>Root</h1>
+  
+  <button ion-button color="primary" block (click)="navegarPagina()" > ir a pagina 2</button>
+  <button ion-button color="secondary" block [navPush]="pagina2" > ir a pagina 2 - HTML </button>
 
 </ion-content>
